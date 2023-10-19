@@ -57,10 +57,6 @@
     
     
     
-        
-<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
-
-    
     
     
 <script src="https://unpkg.com/pace-js@1.2.4/pace.min.js"></script>
@@ -204,7 +200,7 @@
     <a target="_blank" rel="noopener" href="https://bigbigbigwaterbucket.github.io/"></a>
     <div class="friend-icon-wrap">
       <div class="friend-icon">
-          <img data-src="https://i.postimg.cc/63j45pLf/waterbucket.jpg" data-sizes="auto" alt="大水桶" class="lazyload">
+          <img data-src="https://bigbigbigwaterbucket.github.io/images/avatar.png" data-sizes="auto" alt="大水桶" class="lazyload">
       </div>
     </div>
     <div class="friend-info-wrap">
@@ -224,16 +220,26 @@
                class="article-share-link">分享</a>
             
             
-                <a href="/friend/index.html#comments" class="article-comment-link">
-                    <span class="post-comments-count waline-comment-count" data-path="/friend/index.html"
-                          itemprop="commentCount"></span>
-                    留言
-                </a>
-            
             
             
 
         </footer>
+        <script src="https://giscus.app/client.js"
+        data-repo="Innoy-qwq/Innoy-qwq.github.io"
+        data-repo-id="R_kgDOKf5iZQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKf5iZc4CaIaR"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+        </script>
     </div>
     
         
@@ -243,8 +249,6 @@
 
 
 
-
-     <div id="comments" class="wcomment"></div>
 
 
 
@@ -468,27 +472,6 @@
 
 
 
-
-    
-<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
-
-    <script type="module">
-        import { init } from "https://unpkg.com/@waline/client@v2/dist/waline.mjs";
-
-        init({
-          el: '.wcomment',
-          serverURL: 'https://noytown-3d64i16or-innoy-qwqs-projects.vercel.app',
-          lang: 'zh-CN',
-          locale: {},
-          emoji: ["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://unpkg.com/@waline/emojis@1.0.1/alus","https://unpkg.com/@waline/emojis@1.0.1/bilibili","https://unpkg.com/@waline/emojis@1.0.1/qq","https://unpkg.com/@waline/emojis@1.0.1/tieba","https://unpkg.com/@waline/emojis@1.0.1/tw-emoji"],
-          meta: ["nick","mail","link"],
-          requiredMeta: ["nick","mail"],
-          wordLimit: JSON.parse('0'),
-          comment: true,
-          pageSize: JSON.parse('10'),
-          dark: 'html[data-theme="dark"]'
-        });
-    </script>
 
 
 
